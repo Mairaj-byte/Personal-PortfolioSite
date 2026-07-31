@@ -3,18 +3,24 @@ import { Cpu } from 'lucide-react';
 
 const TechStack = () => {
   const stackData = [
-    { name: "HTML5", iconClass: "fa-brands fa-html5 text-orange-500", delay: "0s" },
-    { name: "CSS3", iconClass: "fa-brands fa-css3-alt text-blue-500", delay: "0.4s" },
-    { name: "JavaScript", iconClass: "fa-brands fa-js text-yellow-400", delay: "0.2s" },
-    { name: "React", iconClass: "fa-brands fa-react text-cyan-400", delay: "0.6s" },
-    { name: "Node.js", iconClass: "fa-brands fa-node-js text-emerald-500", delay: "0.1s" },
-    { name: "Express", iconClass: "fa-solid fa-server text-zinc-400", delay: "0.5s" },
-    { name: "MongoDB", iconClass: "fa-solid fa-database text-green-500", delay: "0.3s" },
-    { name: "Git", iconClass: "fa-brands fa-git-alt text-orange-600", delay: "0.7s" },
-    { name: "GitHub", iconClass: "fa-brands fa-github text-white", delay: "0.2s" },
-    { name: "Tailwind CSS", iconClass: "fa-brands fa-css3-alt text-sky-400", delay: "0.8s" },
-    { name: "Vite", iconClass: "fa-solid fa-bolt text-indigo-400", delay: "0.4s" }
-  ];
+  { name: "HTML5", iconClass: "fa-brands fa-html5 text-orange-500", delay: "0s" },
+  { name: "CSS3", iconClass: "fa-brands fa-css3-alt text-blue-500", delay: "0.4s" },
+  { name: "JavaScript", iconClass: "fa-brands fa-js text-yellow-400", delay: "0.2s" },
+  { name: "React", iconClass: "fa-brands fa-react text-cyan-400", delay: "0.6s" },
+  { name: "Node.js", iconClass: "fa-brands fa-node-js text-emerald-500", delay: "0.1s" },
+  { name: "Express", iconClass: "fa-solid fa-server text-zinc-400", delay: "0.5s" },
+  { name: "MongoDB", iconClass: "fa-solid fa-database text-green-500", delay: "0.3s" },
+
+  // New Skills
+  { name: "WebSocket", iconClass: "fa-solid fa-plug text-cyan-400", delay: "0.9s" },
+  { name: "Render", iconClass: "fa-solid fa-cloud text-purple-400", delay: "1s" },
+  { name: "Vercel", iconClass: "fa-solid fa-cloud-arrow-up text-white", delay: "1.1s" },
+
+  { name: "Git", iconClass: "fa-brands fa-git-alt text-orange-600", delay: "0.7s" },
+  { name: "GitHub", iconClass: "fa-brands fa-github text-white", delay: "0.2s" },
+  { name: "Tailwind CSS", iconClass: "fa-brands fa-css3-alt text-sky-400", delay: "0.8s" },
+  { name: "Vite", iconClass: "fa-solid fa-bolt text-indigo-400", delay: "0.4s" }
+];
 
   return (
     <section id="techstack" className="relative py-20 bg-black text-white overflow-hidden border-b border-zinc-900">

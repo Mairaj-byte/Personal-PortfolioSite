@@ -5,26 +5,58 @@ import { Briefcase, FolderGit2, ExternalLink } from 'lucide-react';
 const Projects = () => {
   const projectsData = [
     {
-      title: "Clothify Fashion E-Commerce Platform",
-      description: "A highly resilient enterprise-grade microservices system executing real-time striping payments and low-latency inventory syncing at scale.",
-      tags: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "ThunderClient", "Stripe API", "Vercel"],
-      github: "https://github.com/Mairaj-byte/Clothify-MERN--Stack",
-      live: "https://clothify-frontend-vert.vercel.app/",
-    },
-    {
-      title: "Influ-Brand Collab Management System",
-      description: "Engineered deep machine learning telemetry panels processing incoming visual web traffic matrix data and generating 2026 performance trend charts.",
-      tags: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "ThunderClient", "RazorPay", "Vercel"],
-      github: "https://github.com/Mairaj-byte/CollabZoneX",
-      live: "https://collabzone.vercel.app/",
-    },
-    // {
-    //   title: "Distributed Real-time Chat Workspace",
-    //   description: "Built end-to-end encrypted messaging environment operating via custom websocket infrastructure with instant presence notification trackers.",
-    //   tags: ["React.js", "Express.js", "Socket.io", "MongoDB", "WebRTC"],
-    //   github: "https://github.com",
-    //   live: "https://example.com",
-    // }
+  title: "TaskSphere Task Management System",
+  description:
+    "A full-stack team collaboration and task management platform featuring role-based access control, real-time team communication, project tracking, task assignment, file management, activity logs, and secure authentication for streamlined workplace productivity.",
+  tags: [
+    "React.js",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Socket.io",
+    "JWT",
+    "Cloudinary",
+    "Vercel"
+  ],
+  github: "https://github.com/Mairaj-byte/TaskSphere",
+  live: "https://tasksphereportal.onrender.com/",
+},
+{
+  title: "CollabZoneX Influencer-Brand Collaboration Platform",
+  description:
+    "A MERN-based platform connecting brands with influencers through campaign management, collaboration requests, secure payments, real-time messaging, profile management, and role-based dashboards for seamless marketing partnerships.",
+  tags: [
+    "React.js",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Razorpay",
+    "JWT",
+    "Cloudinary",
+    "Vercel"
+  ],
+  github: "https://github.com/Mairaj-byte/CollabZoneX",
+  live: "https://collabzone.vercel.app/",
+},
+{
+  title: "Eco-Garden Services Plant E-Commerce",
+  description:
+    "A modern MERN e-commerce platform for purchasing indoor and outdoor plants with secure authentication, product catalog, shopping cart, order management, responsive UI, and an intuitive customer shopping experience.",
+  tags: [
+    "React.js",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JWT",
+    "Cloudinary",
+    "Vercel"
+  ],
+  github: "https://github.com/Mairaj-byte/Eco-Garden-Services",
+  live: "https://eco-garden-services.vercel.app/",
+},
   ];
 
   return (

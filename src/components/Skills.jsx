@@ -11,12 +11,12 @@ const Skills = () => {
     {
       title: "Backend & Systems",
       icon: <HardDrive size={18} className="text-cyan-400" />,
-      skills: ["Node.js", "Express.js", "MongoDB", "RESTfull APIs", "MySQL"]
+      skills: ["Node.js", "Express.js", "MongoDB", "RESTfull APIs", "MySQL", "WebSocket", "Socket.io"]
     },
     {
       title: "DevOps & Tools",
       icon: <Wrench size={18} className="text-indigo-400" />,
-      skills: ["Git & GitHub" , "Vercel / Netlify", "Postman", "CI/CD", "Thunder Client"]
+      skills: ["Git & GitHub" , "Vercel / Netlify", "Postman", "CI/CD", "Thunder Client", "Render"]
     }
   ];
 

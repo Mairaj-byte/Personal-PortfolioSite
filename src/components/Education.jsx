@@ -4,19 +4,26 @@ import { GraduationCap, Landmark, Calendar, Award } from 'lucide-react';
 const Education = () => {
   const educationData = [
     {
-      degree: "Bachelor of Computer Applications (BCA)",
-      institution: "Sai Institute of Paramedical & Allied Sciences",
-      period: "2023 - 2026",
-      specialization: "Advanced Software Engineering & Systems Design",
-      details: "Focused core academic tracking on data structures, advanced compiler frameworks, relational database administration, and modern network distribution architectures."
-    },
-    {
-      degree: "Higher Secondary Education",
-      institution: "Senior Secondary Board",
-      period: "2021 - 2023",
-      specialization: "Science & Mathematics Stream",
-      details: "Completed core foundational tracks across physics, advanced computing theory, and mathematical matrices layouts."
-    }
+  degree: "Master of Computer Applications (MCA)",
+  institution: "Jamia Hamdard University, New Delhi",
+  period: "2026 - Present",
+  specialization: "Computer Applications",
+  details: "Remote (Online) | Pursuing postgraduate studies with a focus on advanced software development, database systems, cloud computing, data structures, algorithms, and modern web technologies."
+},
+{
+  degree: "Bachelor of Computer Applications (BCA)",
+  institution: "H.N.B Garhwal University, Srinagar",
+  period: "2023 - 2026",
+  specialization: "Computer Applications",
+  details: "Graduated with a strong foundation in programming, data structures, database management systems, operating systems, computer networks, software engineering, and full-stack web development."
+},
+{
+  degree: "Higher Secondary Education (Class XII)",
+  institution: "Senior Secondary Board",
+  period: "2021 - 2023",
+  specialization: "Science Stream",
+  details: "Completed higher secondary education with core subjects including Physics, Chemistry, Mathematics, and Computer Science."
+}
   ];
 
   return (
